@@ -17,7 +17,7 @@ export default {
 <style>
 .menu {
     background-color: white;
-    box-shadow: 0px 0px 2px 1px #c7c7c7;
+    box-shadow: 0px 0px 2px 1px var(--tg-shadow);
 
     display: flex;
     flex-direction: column;

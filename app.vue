@@ -18,7 +18,7 @@ html {
 .body {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 13px;
 
   margin: 0;
   position: absolute;

@@ -34,7 +34,7 @@ export default {
     height: 80%;
 
     border-radius: 50%;
-    border: var(--tg-primary) solid 3px;
+    border: var(--tg-active) solid 3px;
     box-sizing: border-box;
     padding: 2px;
 }

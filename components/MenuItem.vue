@@ -26,6 +26,7 @@ export default {
 https://habits-webapp-five.vercel.app/
 <style>
 .menu-item {
+    position: relative;
     width: 100%;
     height: fit-content;
     padding: 13px 0;
@@ -33,9 +34,19 @@ https://habits-webapp-five.vercel.app/
     align-items: center;
     box-sizing: border-box;
 
-    box-shadow: 0px 0px 1px #c7c7c7;
-    
+
     transition: 500ms;
+}
+
+.menu-item:before {
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+    width: 100%;
+    height: 1px;
+    background: #f1f1f1;
 }
 
 .menu-item:hover {
