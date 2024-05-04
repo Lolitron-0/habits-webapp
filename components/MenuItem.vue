@@ -43,10 +43,10 @@ https://habits-webapp-five.vercel.app/
     content: "";
     position: absolute;
     bottom: 0;
-    left: 80px;
+    left: 72px;
     width: 100%;
     height: 1px;
-    background: #f1f1f1;
+    background: #f0f0f0;
 }
 
 .menu-item:hover {
@@ -68,7 +68,7 @@ https://habits-webapp-five.vercel.app/
 
 .menu-item .text {
     font-size: 1.1rem;
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 .menu-item .arrow {
