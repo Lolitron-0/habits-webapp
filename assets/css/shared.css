@@ -1,0 +1,8 @@
+:root {
+    --tg-active: #53ade9;
+    --tg-inactive: #b0b5b9;
+    --tg-text: black;
+    --tg-secondary: #848b93;
+    --tg-background: #F0F0F0;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Apple Color Emoji", "Segoe UI", Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
