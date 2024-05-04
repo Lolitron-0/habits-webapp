@@ -1,12 +1,25 @@
 <template>
     <div class="menu">
-        <MenuItem icon="bell.png">Привычки</MenuItem>
-        <MenuItem icon="award.png">Награды</MenuItem>
+
+        <NuxtLink to="/habits" class="link">
+            <MenuItem icon="bell.png">Привычки</MenuItem>
+        </NuxtLink>
+
+        <NuxtLink to="/awards" class="link">
+            <MenuItem icon="award.png">Награды</MenuItem>
+        </NuxtLink>
+
         <NuxtLink to="/settings" class="link">
             <MenuItem icon="settings.png">Настройки</MenuItem>
         </NuxtLink>
-        <MenuItem icon="question.png">Как пользоваться</MenuItem>
-        <MenuItem icon="premium.png">Премиум</MenuItem>
+
+        <NuxtLink to="/howto" class="link">
+            <MenuItem icon="question.png">Как пользоваться</MenuItem>
+        </NuxtLink>
+
+        <NuxtLink to="/premium" class="link">
+            <MenuItem icon="premium.png">Премиум</MenuItem>
+        </NuxtLink>
     </div>
 </template>
 
@@ -17,7 +30,6 @@ export default {
 </script>
 
 <style>
-
 .menu {
     background-color: var(--tg-body);
     box-shadow: 0px 0px 2px 1px var(--tg-shadow);
