@@ -1,7 +1,7 @@
 <template>
     <div class="user-container">
         <div class="pfp-container">
-            <img class="pfp-image" :src="this.pfpUrl" alt="pfp" />
+            <img class="pfp-image" :src="pfpUrl" alt="pfp" />
         </div>
         <div class="username-text">{{ username }}</div>
     </div>
