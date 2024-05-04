@@ -32,7 +32,7 @@ import type { setBlockTracking } from 'vue';
 <script lang="ts">
 import "../assets/css/shared.css"
 
-export default defineComponent({
+export default {
     name: "Header",
     data() {
         return {
@@ -41,7 +41,7 @@ export default defineComponent({
             level: 1
         }
     },
-});
+};
 
 
 </script>

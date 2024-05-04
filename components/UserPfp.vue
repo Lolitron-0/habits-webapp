@@ -8,7 +8,7 @@
 </template>
 
 <script lang="ts">
-export default defineComponent({
+export default {
     name: "Header",
     data() {
         return {
@@ -16,7 +16,7 @@ export default defineComponent({
             pfpUrl: "pfp.jpg",
         }
     }
-});
+};
 </script>
 
 <style>

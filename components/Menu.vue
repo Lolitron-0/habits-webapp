@@ -9,9 +9,9 @@
 </template>
 
 <script lang="ts">
-export default defineComponent({
+export default {
     name: "Menu",
-});
+};
 </script>
 
 <style>
@@ -23,5 +23,4 @@ export default defineComponent({
     flex-direction: column;
     width: 100%;
 }
-
 </style>
