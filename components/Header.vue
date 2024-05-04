@@ -3,9 +3,6 @@ import type { setBlockTracking } from 'vue';
 <template>
     <div class="header">
         <UserPfp></UserPfp>
-        <!-- <CellUserItemLarge avatar="image.png" class="cell-user-item-large-selected"
-            content-class="cell-user-item-large-selected-instance" label-class="cell-user-item-large-instance"
-            overlap-group-class="design-component-instance-node" select-class="cell-user-item-large-2" /> -->
         <div class="progress-bar">
             <div class="text-wrapper">
                 <div class="header-text">{{ level }} Уровень</div>
@@ -48,7 +45,7 @@ export default {
   
 <style>
 .header {
-    background-color: white;
+    background-color: var(--tg-body);
     width: 100%;
     height: 20vh;
     min-height: 100px;

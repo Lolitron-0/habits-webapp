@@ -2,7 +2,9 @@
     <div class="menu">
         <MenuItem icon="bell.png">Привычки</MenuItem>
         <MenuItem icon="award.png">Награды</MenuItem>
-        <MenuItem icon="settings.png">Настройки</MenuItem>
+        <NuxtLink to="/settings" class="link">
+            <MenuItem icon="settings.png">Настройки</MenuItem>
+        </NuxtLink>
         <MenuItem icon="question.png">Как пользоваться</MenuItem>
         <MenuItem icon="premium.png">Премиум</MenuItem>
     </div>
@@ -15,8 +17,9 @@ export default {
 </script>
 
 <style>
+
 .menu {
-    background-color: white;
+    background-color: var(--tg-body);
     box-shadow: 0px 0px 2px 1px var(--tg-shadow);
 
     display: flex;

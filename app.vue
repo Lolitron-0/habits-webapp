@@ -1,7 +1,6 @@
 <template>
-  <div class="body">
-    <Header></Header>
-    <Menu></Menu>
+  <div>
+    <NuxtPage />
   </div>
 </template>
 
@@ -10,22 +9,36 @@ import "assets/css/shared.css"
 </script>
 
 <style>
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.2s;
+}
 
-html {
+.slide-enter-from,
+.slide-leave-to {
+  transform: translateX(100%);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.15s;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+  filter: blur(5px);
+  transform: scale(0.85);
+}
+
+html, body {
   background-color: var(--tg-background);
-}
-
-.body {
-  display: flex;
-  flex-direction: column;
-  gap: 13px;
-
+  overflow-x: hidden;
   margin: 0;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
 }
 
+.link{
+  text-decoration: none;
+  color: unset;
+}
 </style>
