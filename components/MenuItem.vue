@@ -23,7 +23,7 @@ export default {
     props: ["icon"]
 };
 </script>
-
+https://habits-webapp-five.vercel.app/
 <style>
 .menu-item {
     width: 100%;
@@ -34,6 +34,16 @@ export default {
     box-sizing: border-box;
 
     box-shadow: 0px 0px 1px #c7c7c7;
+    
+    transition: 500ms;
+}
+
+.menu-item:hover {
+    background-color: var(--tg-hover);
+}
+
+.menu-item:active {
+    background-color: var(--tg-active);
 }
 
 .menu-item .icon {

@@ -79,7 +79,7 @@ export default {
 }
 
 .point-left {
-    background-color: var(--tg-active);
+    background-color: var(--tg-primary);
     border-radius: 100%;
     height: 6px;
     aspect-ratio: 1;
@@ -102,12 +102,12 @@ export default {
 }
 
 .bar-filled {
-    background: var(--tg-active);
+    background: var(--tg-primary);
     height: 100%;
 }
 
 .point-indicator {
-    background-color: var(--tg-active);
+    background-color: var(--tg-primary);
     border-radius: 100%;
     position: relative;
     left: 100%;
