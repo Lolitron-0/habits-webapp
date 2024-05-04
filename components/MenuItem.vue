@@ -1,6 +1,6 @@
 <template>
     <div class="menu-item">
-        <img class="icon" :src="this.icon" alt="icon" />
+        <img class="icon" :src="icon" alt="icon" />
         <div class="text">
             <slot></slot>
         </div>
