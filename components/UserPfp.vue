@@ -48,6 +48,7 @@ export default {
 
 .username-text {
     font-size: 80%;
+    color: var(--tg-theme-text-color)
 }
 
 </style>

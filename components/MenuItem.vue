@@ -46,7 +46,8 @@ export default {
     left: 72px;
     width: 100%;
     height: 1px;
-    background: var(--tg-theme-hint-color);
+    /* background: var(--tg-theme-hint-color); */
+    background: transparent; 
 }
 
 .menu-item:hover {
