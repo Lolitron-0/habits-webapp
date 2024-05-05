@@ -18,11 +18,21 @@
 </template>
 
 <script lang="ts">
+import CssFilterConverter from 'css-filter-converter';
+
 export default {
     name: "MenuItem",
-    props: ["icon"]
+    props: ["icon"],
+
+    mounted() {
+        const icons = document.querySelectorAll(".menu-item .icon")
+        for (let i = 0; i < icons.length; i++) {
+            icons[i].style.filter = CssFilterConverter.hexToFilter(window.Telegram.WebApp.hint_color);
+        }
+    }
 };
 </script>
+
 <style>
 .menu-item {
     position: relative;
@@ -47,7 +57,7 @@ export default {
     width: 100%;
     height: 1px;
     /* background: var(--tg-theme-hint-color); */
-    background: transparent; 
+    background: transparent;
 }
 
 .menu-item:hover {
@@ -59,7 +69,7 @@ export default {
 }
 
 .menu-item .icon {
-    filter: opacity(0.5);
+    /* filter: opacity(0.5); */
     aspect-ratio: 1;
     height: 30px;
     padding: 3px;

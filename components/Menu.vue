@@ -2,7 +2,7 @@
     <div class="menu">
 
         <NuxtLink to="/habits" class="link">
-            <MenuItem icon="bell.png">Привычки</MenuItem>
+            <MenuItem icon="svg.svg">Привычки</MenuItem>
         </NuxtLink>
 
         <NuxtLink to="/awards" class="link">
