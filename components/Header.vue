@@ -45,7 +45,7 @@ export default {
   
 <style>
 .header {
-    background-color: var(--tg-body);
+    background-color: var(--tg-theme-bg-color);
     width: 100%;
     height: 20vh;
     min-height: 100px;
@@ -76,7 +76,7 @@ export default {
 }
 
 .point-left {
-    background-color: var(--tg-primary);
+    background-color: var(--tg-theme-button-color);
     border-radius: 100%;
     height: 6px;
     aspect-ratio: 1;
@@ -84,7 +84,7 @@ export default {
 
 
 .point-right {
-    background-color: var(--tg-inactive);
+    background-color: var(--tg-theme-hint-color);
     border-radius: 100%;
     height: 6px;
     aspect-ratio: 1;
@@ -95,16 +95,16 @@ export default {
     display: block;
     width: 100%;
     height: 3px;
-    background: var(--tg-inactive);
+    background: var(--tg-theme-hint-color);
 }
 
 .bar-filled {
-    background: var(--tg-primary);
+    background: var(--tg-theme-button-color);
     height: 100%;
 }
 
 .point-indicator {
-    background-color: var(--tg-primary);
+    background-color: var(--tg-theme-button-color);
     border-radius: 100%;
     position: relative;
     left: 100%;
@@ -120,7 +120,7 @@ export default {
 }
 
 .header-text {
-    color: var(--tg-secondary);
+    color: var(--tg-theme-hint-color);
     font-size: 11.9px;
     font-weight: 400;
     letter-spacing: 0;
@@ -139,7 +139,7 @@ export default {
 }
 
 .header-title {
-    color: var(--tg-secondary);
+    color: var(--tg-theme-accent-text-color);
     font-size: 12pt;
     font-weight: 700;
 }

@@ -31,13 +31,15 @@ import "assets/css/shared.css"
   transform: scale(0.85);
 }
 
-html, body {
-  background-color: var(--tg-background);
+html,
+body {
+  background-color: var(--tg-theme-secondary-bg-color);
   overflow-x: hidden;
   margin: 0;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Apple Color Emoji", "Segoe UI", Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
-.link{
+.link {
   text-decoration: none;
   color: unset;
 }

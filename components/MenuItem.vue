@@ -23,7 +23,6 @@ export default {
     props: ["icon"]
 };
 </script>
-https://habits-webapp-five.vercel.app/
 <style>
 .menu-item {
     position: relative;
@@ -50,11 +49,11 @@ https://habits-webapp-five.vercel.app/
 }
 
 .menu-item:hover {
-    background-color: var(--tg-hover);
+    filter: brightness(0.9);
 }
 
 .menu-item:active {
-    background-color: var(--tg-active);
+    filter: brightness(0.7);
 }
 
 .menu-item .icon {
@@ -74,7 +73,7 @@ https://habits-webapp-five.vercel.app/
 .menu-item .arrow {
     aspect-ratio: 1;
     width: 10px;
-    fill: var(--tg-secondary);
+    fill: var(--tg-theme-hint-color);
     margin-left: auto;
     margin-right: 20px;
 }
