@@ -27,7 +27,8 @@ export default {
     mounted() {
         const icons = document.querySelectorAll(".menu-item .icon")
         for (let i = 0; i < icons.length; i++) {
-            icons[i].style.filter = CssFilterConverter.hexToFilter(window.Telegram.WebApp.hint_color);
+            console.log(window.Telegram.WebApp)
+            icons[i].style.filter = CssFilterConverter.hexToFilter();
         }
     }
 };
