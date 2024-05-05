@@ -1,6 +1,6 @@
 <template>
     <div class="menu-item">
-        <img v-if="icon" class="icon-recolored icon" :src="icon" alt="icon" />
+        <img v-if="icon" class="icon-recolored icon" :src="icon" alt="" />
         <img v-if="iconColored" class="icon-colored icon" :src="iconColored" alt="" />
         <div class="text">
             <slot></slot>
