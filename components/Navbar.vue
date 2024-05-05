@@ -15,7 +15,7 @@ export default {
 <style>
 .navbar {
     width: 100%;
-    background-color: var(--tg-body);
+    background-color: var(--tg-theme-header-bg-color);
     display: flex;
     padding: 13px 0;
     margin: 0;

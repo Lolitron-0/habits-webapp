@@ -32,7 +32,6 @@ export default {
 <style>
 .menu {
     background-color: var(--tg-theme-bg-color);
-    box-shadow: 0px 0px 2px 1px var(--tg-shadow);
 
     display: flex;
     flex-direction: column;

@@ -55,8 +55,6 @@ export default {
     display: flex;
     align-items: center;
     gap: 25px;
-
-    box-shadow: 0px 0px 2px 1px var(--tg-shadow);
 }
 
 

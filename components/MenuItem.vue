@@ -32,6 +32,7 @@ export default {
     display: flex;
     align-items: center;
     box-sizing: border-box;
+    color: var(--tg-theme-text-color);
 
 
     transition: 500ms;
@@ -45,15 +46,15 @@ export default {
     left: 72px;
     width: 100%;
     height: 1px;
-    background: #f0f0f0;
+    background: var(--tg-theme-hint-color);
 }
 
 .menu-item:hover {
-    filter: brightness(0.9);
+    background-color: var(--tg-theme-secondary-bg-color);
 }
 
 .menu-item:active {
-    filter: brightness(0.7);
+    background-color: var(--tg-theme-secondary-bg-color);
 }
 
 .menu-item .icon {
