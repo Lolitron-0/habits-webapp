@@ -1,7 +1,7 @@
 <template>
     <div class="navbar">
         <NuxtLink to="/">
-            <img class="back-icon" src="public/arrow-left.png" alt="" />
+            <img class="back-icon icon-recolored" src="public/arrow-left.png" alt="" />
         </NuxtLink>
     </div>
 </template>
