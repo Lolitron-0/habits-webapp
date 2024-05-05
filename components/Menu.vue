@@ -18,7 +18,7 @@
         </NuxtLink>
 
         <NuxtLink to="/premium" class="link">
-            <MenuItem icon="premium.png">Премиум</MenuItem>
+            <MenuItem iconColored="premium.png">Премиум</MenuItem>
         </NuxtLink>
     </div>
 </template>

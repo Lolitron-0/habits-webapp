@@ -6,6 +6,7 @@
 
 <script>
 import "assets/css/shared.css"
+
 </script>
 
 <style>

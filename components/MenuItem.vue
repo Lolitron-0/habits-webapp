@@ -1,6 +1,7 @@
 <template>
     <div class="menu-item">
-        <img class="icon" :src="icon" alt="icon" />
+        <img v-if="icon" class="icon-recolored icon" :src="icon" alt="icon" />
+        <img v-if="iconColored" class="icon-colored icon" :src="iconColored" alt="" />
         <div class="text">
             <slot></slot>
         </div>
@@ -18,18 +19,10 @@
 </template>
 
 <script lang="ts">
-import CssFilterConverter from 'css-filter-converter';
 
 export default {
     name: "MenuItem",
-    props: ["icon"],
-
-    mounted() {
-        const icons = document.querySelectorAll(".menu-item .icon")
-        for (let i = 0; i < icons.length; i++) {
-            icons[i].style.filter = CssFilterConverter.hexToFilter(window.Telegram.WebApp.themeParams.hint_color).color;
-        }
-    }
+    props: ["icon", "iconColored"],
 };
 </script>
 
