@@ -32,6 +32,10 @@ import "assets/css/shared.css"
   transform: scale(0.85);
 }
 
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 html,
 body {
   background-color: var(--tg-theme-secondary-bg-color);
