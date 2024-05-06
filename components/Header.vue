@@ -48,7 +48,7 @@ export default {
     background-color: var(--tg-theme-bg-color);
     width: 100%;
     height: 20vh;
-    min-height: 100px;
+    min-height: 120px;
     padding: 23px;
     box-sizing: border-box;
 

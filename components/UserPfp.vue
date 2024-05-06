@@ -31,12 +31,13 @@ export default {
 
 .pfp-container {
     aspect-ratio: 1;
-    height: 80%;
+    height: 100%;
 
     border-radius: 50%;
     border: var(--tg-theme-button-color) solid 3px;
     box-sizing: border-box;
-    padding: 2px;
+    padding: 0px;
+    position: relative;
 }
 
 .pfp-image {
@@ -44,11 +45,13 @@ export default {
     height: 100%;
 
     border-radius: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 2px;
 }
 
 .username-text {
     font-size: 80%;
     color: var(--tg-theme-text-color)
 }
-
 </style>

@@ -12,7 +12,7 @@ import "assets/css/shared.css"
 <style>
 .slide-enter-active,
 .slide-leave-active {
-  transition: all 0.2s;
+  transition: all 0.15s;
 }
 
 .slide-enter-from,
@@ -22,7 +22,7 @@ import "assets/css/shared.css"
 
 .fade-enter-active,
 .fade-leave-active {
-  transition: all 0.15s;
+  transition: all 0.05s;
 }
 
 .fade-enter-from,
