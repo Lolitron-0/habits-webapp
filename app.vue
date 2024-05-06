@@ -40,7 +40,7 @@ import "assets/css/shared.css"
 html,
 body {
   background-color: var(--tg-theme-secondary-bg-color);
-  overflow-x: hidden;
+  overflow: hidden;
   margin: 0;
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Apple Color Emoji", "Segoe UI", Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }

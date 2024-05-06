@@ -19,6 +19,7 @@ definePageMeta({
 <style>
 .body {
     display: flex;
+    overflow: hidden;
     flex-direction: column;
     gap: 13px;
 
