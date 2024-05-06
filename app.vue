@@ -33,6 +33,7 @@ import "assets/css/shared.css"
 }
 
 * {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
 }
 
