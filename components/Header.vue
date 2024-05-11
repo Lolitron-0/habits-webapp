@@ -8,7 +8,7 @@ import type { setBlockTracking } from 'vue';
                 <div class="header-text">{{ level }} Уровень</div>
                 <div class="title-wrapper">
                     <div class="header-title">{{ levelProgress }} / {{ levelMaxProgress }}</div>
-                    <img class="title-icon icon-recolored" src="public/star.png" alt="" />
+                    <img class="title-icon icon-recolored" src="public/star.svg" alt="" />
                 </div>
                 <div class="header-text">{{ level + 1 }} Уровень</div>
             </div>
@@ -132,7 +132,7 @@ export default {
 
 .title-icon {
     aspect-ratio: 1;
-    width: 15px;
+    width: 22px;
     filter: opacity(0.5);
 }
 

@@ -2,23 +2,23 @@
     <div class="menu">
 
         <NuxtLink to="/habits" class="link">
-            <MenuItem icon="svg.svg">Привычки</MenuItem>
+            <MenuItem icon="habits.svg">Привычки</MenuItem>
         </NuxtLink>
 
         <NuxtLink to="/awards" class="link">
-            <MenuItem icon="award.png">Награды</MenuItem>
+            <MenuItem icon="awards.svg">Награды</MenuItem>
         </NuxtLink>
 
         <NuxtLink to="/settings" class="link">
-            <MenuItem icon="settings.png">Настройки</MenuItem>
+            <MenuItem icon="settings.svg">Настройки</MenuItem>
         </NuxtLink>
 
         <NuxtLink to="/howto" class="link">
-            <MenuItem icon="question.png">Как пользоваться</MenuItem>
+            <MenuItem icon="question.svg">Как пользоваться</MenuItem>
         </NuxtLink>
 
         <NuxtLink to="/premium" class="link">
-            <MenuItem iconColored="premium.png">Премиум</MenuItem>
+            <MenuItem iconColored="premium.svg">Премиум</MenuItem>
         </NuxtLink>
     </div>
 </template>

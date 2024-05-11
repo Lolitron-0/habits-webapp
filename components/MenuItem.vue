@@ -65,7 +65,6 @@ export default {
     /* filter: opacity(0.5); */
     aspect-ratio: 1;
     height: 30px;
-    padding: 3px;
     margin-left: 20px;
     box-sizing: border-box;
 }
