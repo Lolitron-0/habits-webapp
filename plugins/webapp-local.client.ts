@@ -1,8 +1,9 @@
 function populateAPIObject() {
+	if (process.env.TEST) return;
+
 	window.Telegram = {};
 	window.Telegram.WebApp = {
-		initData:
-			"",
+		initData: "",
 		initDataUnsafe: {
 			query_id: "",
 			user: {
