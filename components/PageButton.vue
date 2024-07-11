@@ -12,10 +12,9 @@ export default {
     name: "PageButton",
     props: ["to", "icon", "first", 'selected'],
     mounted() {
-        console.log(this.selected);
         if (this.selected) {
-            const oldSrc = this.$refs.img.src as String
-            this.$refs.img.src = oldSrc.split('.')[0] + "-color." + oldSrc.split('.')[1]
+            const oldSrcSplit = this.$refs.img.src.split('.')
+            this.$refs.img.src = oldSrcSplit[oldSrcSplit.length - 2] + "-color." + oldSrcSplit[oldSrcSplit.length - 1]
         }
     }
 };
