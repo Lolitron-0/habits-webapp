@@ -10,6 +10,10 @@ import "assets/css/shared.css"
 </script>
 
 <style>
+:root {
+  --elements-gap: 13px;
+}
+
 .slide-enter-active,
 .slide-leave-active {
   transition: all 0.15s;

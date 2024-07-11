@@ -2,8 +2,8 @@
     <div class="body">
         <Header></Header>
         <Menu>
-            <MenuItem to="/habits" icon="svg.svg">Привычки</MenuItem>
-            <MenuItem to="/awards" icon="award.svg">Награды</MenuItem>
+            <MenuItem to="/habits" icon="habits.svg">Привычки</MenuItem>
+            <MenuItem to="/awards" icon="awards.svg">Награды</MenuItem>
             <MenuItem to="/settings" icon="settings.svg">Настройки</MenuItem>
             <MenuItem to="/howto" icon="question.svg">Как пользоваться</MenuItem>
             <MenuItem to="/premium" iconColored="premium.svg">Премиум</MenuItem>
