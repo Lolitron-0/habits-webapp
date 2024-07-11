@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 512 512" width="512" height="512" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="__lottie_element_2">
+      <rect width="512" height="512" x="0" y="0"/>
+    </clipPath>
+    <clipPath id="__lottie_element_4">
+      <path d="M0,0 L100,0 L100,100 L0,100z"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#__lottie_element_2)">
+    <g clip-path="url(#__lottie_element_4)" transform="matrix(5.119999885559082,0,0,5.119999885559082,0,0)" opacity="1" style="display: block;">
+      <g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;">
+        <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1" stroke-width="5" d="M 24.5 30.583 C 24.5 30.583 24.5 38.593 24.5 45.935 C 24.5 52.144 24.5 57.875 24.5 57.875 C 24.5 68.27 42.952 77.945 48.54 80.637 C 49.54 81.123 50.71 81.123 51.71 80.637 C 57.298 77.945 75.75 68.27 75.75 57.875 C 75.75 57.875 75.75 30.583 75.75 30.583 C 75.75 28.951 74.751 27.475 73.236 26.869 C 73.236 26.869 55.324 19.705 55.324 19.705 C 51.988 18.371 48.262 18.371 44.926 19.705 C 44.926 19.705 27.014 26.869 27.014 26.869 C 25.499 27.475 24.5 28.951 24.5 30.583 C 24.5 30.583 24.5 30.583 24.5 30.583 Z" style="fill: rgb(243, 192, 75); stroke: rgb(243, 192, 75);"/>
+        </g>
+        <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+          <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke-opacity="1" stroke-width="5" d=" M64.06300354003906,41.3129997253418 C64.06300354003906,41.3129997253418 47.25,60.8129997253418 47.25,60.8129997253418 C47.25,60.8129997253418 37.6879997253418,51.1870002746582 37.6879997253418,51.1870002746582" style="stroke: rgb(209, 15, 237);"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

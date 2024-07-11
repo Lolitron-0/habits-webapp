@@ -1,8 +1,8 @@
 <template>
     <div :class="{ 'page-button': true, 'nobordered': first }">
         <NuxtLink class="link" :to="to">
-            <img v-if="iconColored" class="icon" :src="iconColored" alt="">
-            <img v-if="icon" class="icon-recolored icon" :src="icon" alt="">
+            <img ref="img" :class="{ 'icon-recolored': !selected, 'icon-colored': selected, 'icon': true }" :src="icon"
+                alt="">
         </NuxtLink>
     </div>
 </template>
@@ -10,7 +10,14 @@
 <script lang="ts">
 export default {
     name: "PageButton",
-    props: ["to", "iconColored", "icon", "first"]
+    props: ["to", "icon", "first", 'selected'],
+    mounted() {
+        console.log(this.selected);
+        if (this.selected) {
+            const oldSrc = this.$refs.img.src as String
+            this.$refs.img.src = oldSrc.split('.')[0] + "-color." + oldSrc.split('.')[1]
+        }
+    }
 };
 </script>
 
@@ -31,6 +38,6 @@ export default {
 }
 
 .page-button .icon {
-    width: 60%;
+    width: 60px;
 }
 </style>

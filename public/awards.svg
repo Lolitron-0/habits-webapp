@@ -1,1 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" width="512" height="512" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;"><defs><clipPath id="__lottie_element_2"><rect width="512" height="512" x="0" y="0"/></clipPath><clipPath id="__lottie_element_4"><path d="M0,0 L100,0 L100,100 L0,100z"/></clipPath></defs><g clip-path="url(#__lottie_element_2)"><g clip-path="url(#__lottie_element_4)" transform="matrix(5.119999885559082,0,0,5.119999885559082,0,0)" opacity="1" style="display: block;"><g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="5" d=" M24.5,30.58300018310547 C24.5,30.58300018310547 24.5,57.875 24.5,57.875 C24.5,68.2699966430664 42.95199966430664,77.94499969482422 48.540000915527344,80.63700103759766 C49.54012680053711,81.12257385253906 50.70987319946289,81.12257385253906 51.709999084472656,80.63700103759766 C57.29800033569336,77.94499969482422 75.75,68.2699966430664 75.75,57.875 C75.75,57.875 75.75,30.58300018310547 75.75,30.58300018310547 C75.75010681152344,28.950897216796875 74.75129699707031,27.475326538085938 73.23600006103516,26.868999481201172 C73.23600006103516,26.868999481201172 55.32400131225586,19.704999923706055 55.32400131225586,19.704999923706055 C51.987648010253906,18.3705997467041 48.262351989746094,18.3705997467041 44.92599868774414,19.704999923706055 C44.92599868774414,19.704999923706055 27.013999938964844,26.868999481201172 27.013999938964844,26.868999481201172 C25.498701095581055,27.475326538085938 24.49989128112793,28.950897216796875 24.5,30.58300018310547 C24.5,30.58300018310547 24.5,30.58300018310547 24.5,30.58300018310547z"/></g><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="5" d=" M64.06300354003906,41.3129997253418 C64.06300354003906,41.3129997253418 47.25,60.8129997253418 47.25,60.8129997253418 C47.25,60.8129997253418 37.6879997253418,51.1870002746582 37.6879997253418,51.1870002746582"/></g></g></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 512 512" width="512" height="512" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="__lottie_element_2">
+      <rect width="512" height="512" x="0" y="0"/>
+    </clipPath>
+    <clipPath id="__lottie_element_4">
+      <path d="M0,0 L100,0 L100,100 L0,100z"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#__lottie_element_2)">
+    <g clip-path="url(#__lottie_element_4)" transform="matrix(5.119999885559082,0,0,5.119999885559082,0,0)" opacity="1" style="display: block;">
+      <g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;">
+        <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1" stroke-width="5" d="M 24.5 30.583 C 24.5 30.583 24.5 38.593 24.5 45.935 C 24.5 52.144 24.5 57.875 24.5 57.875 C 24.5 68.27 42.952 77.945 48.54 80.637 C 49.54 81.123 50.71 81.123 51.71 80.637 C 57.298 77.945 75.75 68.27 75.75 57.875 C 75.75 57.875 75.75 30.583 75.75 30.583 C 75.75 28.951 74.751 27.475 73.236 26.869 C 73.236 26.869 55.324 19.705 55.324 19.705 C 51.988 18.371 48.262 18.371 44.926 19.705 C 44.926 19.705 27.014 26.869 27.014 26.869 C 25.499 27.475 24.5 28.951 24.5 30.583 C 24.5 30.583 24.5 30.583 24.5 30.583 Z" style="stroke: rgb(0, 0, 0); fill: rgb(243, 192, 75); fill-opacity: 0;"/>
+        </g>
+        <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+          <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke-opacity="1" stroke-width="5" d=" M64.06300354003906,41.3129997253418 C64.06300354003906,41.3129997253418 47.25,60.8129997253418 47.25,60.8129997253418 C47.25,60.8129997253418 37.6879997253418,51.1870002746582 37.6879997253418,51.1870002746582" style="stroke: rgb(0, 0, 0);"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

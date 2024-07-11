@@ -1,7 +1,7 @@
 <template>
     <div>
         <Navbar></Navbar>
-        <PageSwitch></PageSwitch>
+        <PageSwitch sel-index="1"></PageSwitch>
         <div class="menus">
             <Menu>
                 <MenuItem to="/myhabits" icon="habits.svg">Мои привычки
