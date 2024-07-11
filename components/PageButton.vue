@@ -14,7 +14,7 @@ export default {
     mounted() {
         if (this.selected) {
             const oldSrcSplit = this.$refs.img.src.split('.')
-            this.$refs.img.src = oldSrcSplit[oldSrcSplit.length - 2] + "-color." + oldSrcSplit[oldSrcSplit.length - 1]
+            this.$refs.img.src = oldSrcSplit.slice(0,oldSrcSplit.length - 1).join('.') + "-color." + oldSrcSplit[oldSrcSplit.length - 1]
         }
     }
 };
