@@ -1,25 +1,6 @@
 <template>
     <div class="menu">
-
-        <NuxtLink to="/habits" class="link">
-            <MenuItem icon="habits.svg">Привычки</MenuItem>
-        </NuxtLink>
-
-        <NuxtLink to="/awards" class="link">
-            <MenuItem icon="awards.svg">Награды</MenuItem>
-        </NuxtLink>
-
-        <NuxtLink to="/settings" class="link">
-            <MenuItem icon="settings.svg">Настройки</MenuItem>
-        </NuxtLink>
-
-        <NuxtLink to="/howto" class="link">
-            <MenuItem icon="question.svg">Как пользоваться</MenuItem>
-        </NuxtLink>
-
-        <NuxtLink to="/premium" class="link">
-            <MenuItem iconColored="premium.svg">Премиум</MenuItem>
-        </NuxtLink>
+        <slot></slot>
     </div>
 </template>
 

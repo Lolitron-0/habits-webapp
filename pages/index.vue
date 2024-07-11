@@ -1,7 +1,13 @@
 <template>
     <div class="body">
         <Header></Header>
-        <Menu></Menu>
+        <Menu>
+            <MenuItem to="/habits" icon="svg.svg">Привычки</MenuItem>
+            <MenuItem to="/awards" icon="award.svg">Награды</MenuItem>
+            <MenuItem to="/settings" icon="settings.svg">Настройки</MenuItem>
+            <MenuItem to="/howto" icon="question.svg">Как пользоваться</MenuItem>
+            <MenuItem to="/premium" iconColored="premium.svg">Премиум</MenuItem>
+        </Menu>
     </div>
 </template>
 
