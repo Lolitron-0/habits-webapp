@@ -1,5 +1,5 @@
 function populateAPIObject() {
-	if (process.env.TEST) return;
+	if (process.env.PROD) return;
 
 	window.Telegram = {};
 	window.Telegram.WebApp = {

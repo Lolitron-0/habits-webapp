@@ -9,7 +9,15 @@
 export default {
     mounted() {
         window.Telegram.WebApp.expand();
+    },
+    setup(){
+definePageMeta({
+    pageTransition: {
+        name: 'fade'
     }
+})
+    }
+
 }
 
 </script>

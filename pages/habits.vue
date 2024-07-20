@@ -19,6 +19,7 @@
                 </MenuItem>
             </Menu>
         </div>
+        <Footer></Footer>
     </div>
 </template>
 

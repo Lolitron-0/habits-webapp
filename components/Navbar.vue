@@ -1,14 +1,19 @@
 <template>
     <div class="navbar">
-        <NuxtLink to="/">
+        <div @click="goBack()" style="cursor:pointer">
             <img class="back-icon icon-recolored" src="public/arrow-left.png" alt="" />
-        </NuxtLink>
+        </div>
     </div>
 </template>
 
 <script>
 export default {
-    name: "Navbar"
+    name: "Navbar",
+    methods: {
+        goBack() {
+            this.$router.go(-1);
+        }
+    }
 }
 </script>
 
