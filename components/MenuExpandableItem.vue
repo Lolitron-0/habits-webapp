@@ -40,7 +40,7 @@ export default {
 <style>
 .v-enter-active,
 .v-leave-active {
-    transition: all 1.5s ease;
+    transition: all 1s ease;
 }
 
 .v-enter-from,
