@@ -39,6 +39,7 @@ import "assets/css/shared.css"
 * {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
+  transition: all 1s;
 }
 
 html,
@@ -47,6 +48,7 @@ body {
   overflow: hidden;
   margin: 0;
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Apple Color Emoji", "Segoe UI", Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  transition: all 1s;
 }
 
 .link {
@@ -59,5 +61,9 @@ body {
     display: flex;
     flex-direction: column;
     gap: var(--elements-gap);
+}
+
+.tr-300{
+  transition: all 300ms;
 }
 </style>

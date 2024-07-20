@@ -92,6 +92,6 @@ function populateAPIObject() {
 export default defineNuxtPlugin({
 	name: "webapp-local",
 	hooks: {
-		"app:mounted": populateAPIObject,
+		"app:created": populateAPIObject,
 	},
 });
