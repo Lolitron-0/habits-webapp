@@ -2,7 +2,7 @@
     <div>
         <Navbar></Navbar>
         <PageSwitch sel-index="1"></PageSwitch>
-        <div class="menus">
+        <div class="gap-container">
             <Menu>
                 <MenuItem to="/myhabits" icon="habits.svg">Мои привычки
                 </MenuItem>
@@ -24,19 +24,9 @@
 </template>
 
 <script>
-
 export default {
-    mounted() {
-        window.Telegram.WebApp.expand();
-    }
 }
-
 </script>
 
 <style>
-.menus {
-    display: flex;
-    flex-direction: column;
-    gap: var(--elements-gap);
-}
 </style>

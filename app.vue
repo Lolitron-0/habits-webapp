@@ -53,4 +53,11 @@ body {
   text-decoration: none;
   color: unset;
 }
+
+.gap-container {
+    margin-top: var(--elements-gap);
+    display: flex;
+    flex-direction: column;
+    gap: var(--elements-gap);
+}
 </style>

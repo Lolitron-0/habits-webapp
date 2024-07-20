@@ -3,6 +3,7 @@ function populateAPIObject() {
 
 	window.Telegram = {};
 	window.Telegram.WebApp = {
+		expand() { console.log("expanded"); },
 		initData: "",
 		initDataUnsafe: {
 			query_id: "",

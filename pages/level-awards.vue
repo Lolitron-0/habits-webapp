@@ -5,8 +5,6 @@
         <div class="gap-container">
             <Header></Header>
             <Menu>
-                <MenuItem icon="star.svg" to="/level-awards">Уровневые награды</MenuItem>
-                <MenuItem icon="awards.svg"> Тематические награды </MenuItem>
             </Menu>
         </div>
         <Footer></Footer>
